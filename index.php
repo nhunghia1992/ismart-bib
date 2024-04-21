@@ -6,23 +6,23 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="http://gmpg.org/xfn/11" rel="profile" />
     <title>
-        Tra cứu thông tin - iSMART Math & Science Online Marathon
+        Tra cứu thông tin - iSMART Online Global Marathon
     </title>
     <meta content="vi_VN" property="og:locale" />
     <meta content="article" property="og:type" />
-    <meta content="Tra cứu thông tin - iSMART Math & Science Online Marathon" property="og:title" />
-    <meta content="Tra cứu thông tin - iSMART Math & Science Online Marathon" property="og:description" />
+    <meta content="Tra cứu thông tin - iSMART Online Global Marathon" property="og:title" />
+    <meta content="Tra cứu thông tin - iSMART Online Global Marathon" property="og:description" />
     <meta content="iSMART Education" property="og:site_name" />
     <meta content="<?php echo strtok((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", '?'); ?>og.jpg" property="og:image" />
     <meta content="summary" name="twitter:card" />
-    <meta content="Tra cứu thông tin - iSMART Math & Science Online Marathon" name="twitter:description" />
-    <meta content="Tra cứu thông tin - iSMART Math & Science Online Marathon" name="twitter:title" />
+    <meta content="Tra cứu thông tin - iSMART Online Global Marathon" name="twitter:description" />
+    <meta content="Tra cứu thông tin - iSMART Online Global Marathon" name="twitter:title" />
     <meta content="<?php echo strtok((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", '?'); ?>og.jpg" name="twitter:image" />
     <meta property="og:url" content="<?php echo strtok((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", '?'); ?>" />
-    <link rel="icon" href="https://onlineschool.ismart.edu.vn/wp-content/uploads/2021/12/cropped-favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://onlineschool.ismart.edu.vn/wp-content/uploads/2021/12/cropped-favicon-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://onlineschool.ismart.edu.vn/wp-content/uploads/2021/12/cropped-favicon-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://onlineschool.ismart.edu.vn/wp-content/uploads/2021/12/cropped-favicon-270x270.png" />
+    <link rel="icon" href="https://test.ismartonline.edu.vn/wp-content/uploads/2024/02/cropped-logo-iSGA-1x1-2-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://test.ismartonline.edu.vn/wp-content/uploads/2024/02/cropped-logo-iSGA-1x1-2-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://test.ismartonline.edu.vn/wp-content/uploads/2024/02/cropped-logo-iSGA-1x1-2-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://test.ismartonline.edu.vn/wp-content/uploads/2024/02/cropped-logo-iSGA-1x1-2-270x270.png" />
 
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet" />
 
@@ -54,6 +54,7 @@
             border-radius: 15px;
             padding: 80px;
         }
+
         .inputWrapper {
             height: 150px;
             aspect-ratio: 16/7;
@@ -62,12 +63,15 @@
             background-position: center;
             position: relative;
         }
+
         .inputName {
             background-image: url(name.svg);
         }
+
         .inputPhone {
             background-image: url(phone.svg);
         }
+
         .formInput {
             position: absolute;
             width: 70%;
@@ -82,6 +86,7 @@
             font-size: 1.2rem;
             color: #fff;
         }
+
         .search {
             margin-top: 50px;
         }
